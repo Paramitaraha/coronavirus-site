@@ -69,29 +69,31 @@ nav ul{
     flex: 1 1 0.5rem;
 }
 .hero{
-    min-height: 90vh;
+    min-height: 95vh;
     width: 100%;
-    background: url("/coronavirus-news-on-screen-3970332.jpg");
+    margin: 3rem;
+    background: linear-gradient(rgba(0,0,0,0.3),transparent),url("/coronavirus-news-on-screen-3970332.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
-    color: rgb(12, 7, 48);
+    color: rgb(218, 213, 248);
 }
 .hero div {
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 h2{
     font-size: 3rem;
 }
 h3{
     font-size: 2.4rem;
+    margin: 1rem;
 }
 .hero button {
-    padding: .5rem 2rem;
-    background: rgb(190, 218, 230);
+    padding: .5rem 3rem;
+    background: rgb(135, 195, 221);
     color: black;
 }
 
@@ -103,12 +105,13 @@ h3{
 
 .intro{
     min-height: 80vh;
-    background: url("/snow-light-people-woman-3932896.jpg");
+    background: linear-gradient(rgba(0,0,0,0.8),transparent),url("/snow-light-people-woman-3932896.jpg");
     background-size: cover;
     background-position: center;
     font-size: 1rem;
-    margin: 1rem;
-    padding: 1rem;
+    color: darkgrey;
+    margin: 2rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -138,6 +141,7 @@ h4{
 }
 p{
     font-size: 2.3rem;
+    margin: 1rem;
 }
 a:visited{
     color: rgb(126, 180, 241);
